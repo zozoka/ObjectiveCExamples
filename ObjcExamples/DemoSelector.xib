@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoSelector">
+            <connections>
+                <outlet property="crunchData" destination="eDe-3x-crF" id="K9i-4d-ZoO"/>
+                <outlet property="slider" destination="qq5-gi-qlu" id="rrA-oQ-1zD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qq5-gi-qlu">
+                    <rect key="frame" x="11" y="226" width="298" height="31"/>
+                    <connections>
+                        <action selector="changeValueSlider:" destination="-1" eventType="valueChanged" id="JVL-p5-yat"/>
+                    </connections>
+                </slider>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDe-3x-crF">
+                    <rect key="frame" x="117" y="309" width="86" height="30"/>
+                    <state key="normal" title="Crunch Data"/>
+                    <connections>
+                        <action selector="onCrundData:" destination="-1" eventType="touchUpInside" id="mLU-lU-AWD"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eDe-3x-crF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Adr-Rl-YM8"/>
+                <constraint firstAttribute="trailing" secondItem="qq5-gi-qlu" secondAttribute="trailing" constant="13" id="Fnn-oa-uzF"/>
+                <constraint firstItem="qq5-gi-qlu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="Kok-Qd-qpz"/>
+                <constraint firstItem="eDe-3x-crF" firstAttribute="top" secondItem="qq5-gi-qlu" secondAttribute="bottom" constant="53" id="TRO-hR-3Ub"/>
+                <constraint firstItem="qq5-gi-qlu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="226" id="dhC-hC-cgg"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="194" y="254"/>
+        </view>
+    </objects>
+</document>
