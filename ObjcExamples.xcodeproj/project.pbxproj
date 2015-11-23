@@ -11,6 +11,7 @@
 		485B10DB1BFDB26500E053A8 /* DemoSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485B10D91BFDB26500E053A8 /* DemoSlider.xib */; settings = {ASSET_TAGS = (); }; };
 		487A3DAD1C02D179004D64AF /* CustomerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A3DAB1C02D179004D64AF /* CustomerSlider.m */; settings = {ASSET_TAGS = (); }; };
 		487A3DAE1C02D179004D64AF /* CustomerSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487A3DAC1C02D179004D64AF /* CustomerSlider.xib */; settings = {ASSET_TAGS = (); }; };
+		487A3DB51C02F990004D64AF /* CustomSwitchCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A3DB41C02F990004D64AF /* CustomSwitchCore.m */; settings = {ASSET_TAGS = (); }; };
 		48828E281BF5884D0092615D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48828E271BF5884D0092615D /* main.m */; };
 		48828E331BF5884D0092615D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48828E321BF5884D0092615D /* Assets.xcassets */; };
 		48828E361BF5884D0092615D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48828E341BF5884D0092615D /* LaunchScreen.storyboard */; };
@@ -32,6 +33,8 @@
 		487A3DAA1C02D179004D64AF /* CustomerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerSlider.h; sourceTree = "<group>"; };
 		487A3DAB1C02D179004D64AF /* CustomerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerSlider.m; sourceTree = "<group>"; };
 		487A3DAC1C02D179004D64AF /* CustomerSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerSlider.xib; sourceTree = "<group>"; };
+		487A3DB31C02F990004D64AF /* CustomSwitchCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitchCore.h; sourceTree = "<group>"; };
+		487A3DB41C02F990004D64AF /* CustomSwitchCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitchCore.m; sourceTree = "<group>"; };
 		48828E231BF5884D0092615D /* ObjcExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48828E271BF5884D0092615D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48828E321BF5884D0092615D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +76,15 @@
 			name = images;
 			sourceTree = "<group>";
 		};
+		487A3DB21C02F92C004D64AF /* CustomSwith */ = {
+			isa = PBXGroup;
+			children = (
+				487A3DB31C02F990004D64AF /* CustomSwitchCore.h */,
+				487A3DB41C02F990004D64AF /* CustomSwitchCore.m */,
+			);
+			name = CustomSwith;
+			sourceTree = "<group>";
+		};
 		48828E1A1BF5884D0092615D = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +108,7 @@
 				48828E3F1BF58B0E0092615D /* Core */,
 				48828E4C1BF5B1F60092615D /* Basic */,
 				48828E321BF5884D0092615D /* Assets.xcassets */,
+				487A3DB21C02F92C004D64AF /* CustomSwith */,
 				48828E341BF5884D0092615D /* LaunchScreen.storyboard */,
 				48828E371BF5884D0092615D /* Info.plist */,
 				48828E261BF5884D0092615D /* Supporting Files */,
@@ -227,6 +240,7 @@
 				489DE69C1C006DAD002E8117 /* CustomSwitch.m in Sources */,
 				48828E4F1BF5B3250092615D /* DemoFunction.m in Sources */,
 				487A3DAD1C02D179004D64AF /* CustomerSlider.m in Sources */,
+				487A3DB51C02F990004D64AF /* CustomSwitchCore.m in Sources */,
 				48828E531BF5E4ED0092615D /* DemoSelector.m in Sources */,
 				48828E281BF5884D0092615D /* main.m in Sources */,
 				485B10DA1BFDB26500E053A8 /* DemoSlider.m in Sources */,

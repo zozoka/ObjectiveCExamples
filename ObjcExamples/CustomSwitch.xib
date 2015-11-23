@@ -17,17 +17,17 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bUn-1U-nqM">
-                    <rect key="frame" x="44" y="258" width="232" height="51"/>
+                    <rect key="frame" x="94" y="258" width="132" height="51"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQd-wx-xOF">
-                            <rect key="frame" x="85" y="0.0" width="120" height="51"/>
+                            <rect key="frame" x="39" y="0.0" width="120" height="51"/>
                             <state key="normal" image="OFF-white"/>
                             <connections>
                                 <action selector="pressOFF:" destination="-1" eventType="touchUpInside" id="aIb-iM-IiW"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hyk-uj-N2U">
-                            <rect key="frame" x="47" y="0.0" width="66" height="51"/>
+                            <rect key="frame" x="0.0" y="0.0" width="66" height="51"/>
                             <state key="normal" image="ON-black"/>
                             <connections>
                                 <action selector="pressON:" destination="-1" eventType="touchUpInside" id="4Pu-Lr-8vJ"/>
@@ -36,7 +36,7 @@
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="232" id="RmH-FE-Zpo"/>
+                        <constraint firstAttribute="width" constant="132" id="RmH-FE-Zpo"/>
                         <constraint firstAttribute="height" constant="51" id="Ubk-Do-XkG"/>
                     </constraints>
                 </view>

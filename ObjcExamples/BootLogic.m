@@ -23,7 +23,7 @@
                                     @{TITLE: @"Demo Slider", CLASS: @"DemoSlider"},
                                     @{TITLE: @"Slider Advance", CLASS: @"CustomerSlider"},
                                     @{TITLE: @"Customized Switch", CLASS: @"CustomSwitch"}
-
+                                    
                                   ]};
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
                                     @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
