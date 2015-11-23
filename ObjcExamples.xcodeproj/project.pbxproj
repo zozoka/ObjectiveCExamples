@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48146F541BFDD16600596610 /* CustomerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 48146F521BFDD16600596610 /* CustomerSlider.m */; settings = {ASSET_TAGS = (); }; };
-		48146F551BFDD16600596610 /* CustomerSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48146F531BFDD16600596610 /* CustomerSlider.xib */; settings = {ASSET_TAGS = (); }; };
 		485B10DA1BFDB26500E053A8 /* DemoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 485B10D81BFDB26500E053A8 /* DemoSlider.m */; settings = {ASSET_TAGS = (); }; };
 		485B10DB1BFDB26500E053A8 /* DemoSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485B10D91BFDB26500E053A8 /* DemoSlider.xib */; settings = {ASSET_TAGS = (); }; };
+		487A3DAD1C02D179004D64AF /* CustomerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A3DAB1C02D179004D64AF /* CustomerSlider.m */; settings = {ASSET_TAGS = (); }; };
+		487A3DAE1C02D179004D64AF /* CustomerSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487A3DAC1C02D179004D64AF /* CustomerSlider.xib */; settings = {ASSET_TAGS = (); }; };
 		48828E281BF5884D0092615D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48828E271BF5884D0092615D /* main.m */; };
 		48828E331BF5884D0092615D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48828E321BF5884D0092615D /* Assets.xcassets */; };
 		48828E361BF5884D0092615D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48828E341BF5884D0092615D /* LaunchScreen.storyboard */; };
@@ -26,12 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48146F511BFDD16600596610 /* CustomerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerSlider.h; sourceTree = SOURCE_ROOT; };
-		48146F521BFDD16600596610 /* CustomerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerSlider.m; sourceTree = SOURCE_ROOT; };
-		48146F531BFDD16600596610 /* CustomerSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerSlider.xib; sourceTree = SOURCE_ROOT; };
 		485B10D71BFDB26500E053A8 /* DemoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSlider.h; sourceTree = "<group>"; };
 		485B10D81BFDB26500E053A8 /* DemoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSlider.m; sourceTree = "<group>"; };
 		485B10D91BFDB26500E053A8 /* DemoSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSlider.xib; sourceTree = "<group>"; };
+		487A3DAA1C02D179004D64AF /* CustomerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerSlider.h; sourceTree = "<group>"; };
+		487A3DAB1C02D179004D64AF /* CustomerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerSlider.m; sourceTree = "<group>"; };
+		487A3DAC1C02D179004D64AF /* CustomerSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerSlider.xib; sourceTree = "<group>"; };
 		48828E231BF5884D0092615D /* ObjcExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48828E271BF5884D0092615D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48828E321BF5884D0092615D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +129,9 @@
 		48828E4C1BF5B1F60092615D /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				487A3DAA1C02D179004D64AF /* CustomerSlider.h */,
+				487A3DAB1C02D179004D64AF /* CustomerSlider.m */,
+				487A3DAC1C02D179004D64AF /* CustomerSlider.xib */,
 				48828E4D1BF5B3250092615D /* DemoFunction.h */,
 				48828E4E1BF5B3250092615D /* DemoFunction.m */,
 				48828E501BF5E4ED0092615D /* DemoSelector.h */,
@@ -137,9 +140,6 @@
 				485B10D71BFDB26500E053A8 /* DemoSlider.h */,
 				485B10D81BFDB26500E053A8 /* DemoSlider.m */,
 				485B10D91BFDB26500E053A8 /* DemoSlider.xib */,
-				48146F511BFDD16600596610 /* CustomerSlider.h */,
-				48146F521BFDD16600596610 /* CustomerSlider.m */,
-				48146F531BFDD16600596610 /* CustomerSlider.xib */,
 				489DE6991C006DAD002E8117 /* CustomSwitch.h */,
 				489DE69A1C006DAD002E8117 /* CustomSwitch.m */,
 				489DE69B1C006DAD002E8117 /* CustomSwitch.xib */,
@@ -206,7 +206,7 @@
 			files = (
 				48828E361BF5884D0092615D /* LaunchScreen.storyboard in Resources */,
 				48828E541BF5E4ED0092615D /* DemoSelector.xib in Resources */,
-				48146F551BFDD16600596610 /* CustomerSlider.xib in Resources */,
+				487A3DAE1C02D179004D64AF /* CustomerSlider.xib in Resources */,
 				48828E331BF5884D0092615D /* Assets.xcassets in Resources */,
 				489DE69D1C006DAD002E8117 /* CustomSwitch.xib in Resources */,
 				485B10DB1BFDB26500E053A8 /* DemoSlider.xib in Resources */,
@@ -226,8 +226,8 @@
 				48828E481BF58BD00092615D /* AppDelegate.m in Sources */,
 				489DE69C1C006DAD002E8117 /* CustomSwitch.m in Sources */,
 				48828E4F1BF5B3250092615D /* DemoFunction.m in Sources */,
+				487A3DAD1C02D179004D64AF /* CustomerSlider.m in Sources */,
 				48828E531BF5E4ED0092615D /* DemoSelector.m in Sources */,
-				48146F541BFDD16600596610 /* CustomerSlider.m in Sources */,
 				48828E281BF5884D0092615D /* main.m in Sources */,
 				485B10DA1BFDB26500E053A8 /* DemoSlider.m in Sources */,
 			);
