@@ -21,7 +21,8 @@
                           ]};
     NSDictionary* intermediate = @{SECTION: @"UIView", MENU: @[
                                     @{TITLE: @"Demo Slider", CLASS: @"DemoSlider"},
-                                    @{TITLE: @"Inter B", CLASS: @"InterB"}
+                                    @{TITLE: @"Slider Advance", CLASS: @"CustomerSlider"},
+                                    @{TITLE: @"Customized Switch", CLASS: @"CustomSwitch"}
 
                                   ]};
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48146F541BFDD16600596610 /* CustomerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 48146F521BFDD16600596610 /* CustomerSlider.m */; settings = {ASSET_TAGS = (); }; };
+		48146F551BFDD16600596610 /* CustomerSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48146F531BFDD16600596610 /* CustomerSlider.xib */; settings = {ASSET_TAGS = (); }; };
 		485B10DA1BFDB26500E053A8 /* DemoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 485B10D81BFDB26500E053A8 /* DemoSlider.m */; settings = {ASSET_TAGS = (); }; };
 		485B10DB1BFDB26500E053A8 /* DemoSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485B10D91BFDB26500E053A8 /* DemoSlider.xib */; settings = {ASSET_TAGS = (); }; };
 		48828E281BF5884D0092615D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48828E271BF5884D0092615D /* main.m */; };
@@ -19,9 +21,14 @@
 		48828E4F1BF5B3250092615D /* DemoFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 48828E4E1BF5B3250092615D /* DemoFunction.m */; settings = {ASSET_TAGS = (); }; };
 		48828E531BF5E4ED0092615D /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 48828E511BF5E4ED0092615D /* DemoSelector.m */; settings = {ASSET_TAGS = (); }; };
 		48828E541BF5E4ED0092615D /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48828E521BF5E4ED0092615D /* DemoSelector.xib */; settings = {ASSET_TAGS = (); }; };
+		489DE69C1C006DAD002E8117 /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 489DE69A1C006DAD002E8117 /* CustomSwitch.m */; settings = {ASSET_TAGS = (); }; };
+		489DE69D1C006DAD002E8117 /* CustomSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489DE69B1C006DAD002E8117 /* CustomSwitch.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48146F511BFDD16600596610 /* CustomerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerSlider.h; sourceTree = SOURCE_ROOT; };
+		48146F521BFDD16600596610 /* CustomerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerSlider.m; sourceTree = SOURCE_ROOT; };
+		48146F531BFDD16600596610 /* CustomerSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerSlider.xib; sourceTree = SOURCE_ROOT; };
 		485B10D71BFDB26500E053A8 /* DemoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSlider.h; sourceTree = "<group>"; };
 		485B10D81BFDB26500E053A8 /* DemoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSlider.m; sourceTree = "<group>"; };
 		485B10D91BFDB26500E053A8 /* DemoSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSlider.xib; sourceTree = "<group>"; };
@@ -43,6 +50,9 @@
 		48828E501BF5E4ED0092615D /* DemoSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelector.h; sourceTree = "<group>"; };
 		48828E511BF5E4ED0092615D /* DemoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelector.m; sourceTree = "<group>"; };
 		48828E521BF5E4ED0092615D /* DemoSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelector.xib; sourceTree = "<group>"; };
+		489DE6991C006DAD002E8117 /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitch.h; sourceTree = "<group>"; };
+		489DE69A1C006DAD002E8117 /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitch.m; sourceTree = "<group>"; };
+		489DE69B1C006DAD002E8117 /* CustomSwitch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSwitch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48146F561BFDDB9A00596610 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		48828E1A1BF5884D0092615D = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +92,7 @@
 		48828E251BF5884D0092615D /* ObjcExamples */ = {
 			isa = PBXGroup;
 			children = (
+				48146F561BFDDB9A00596610 /* images */,
 				48828E3F1BF58B0E0092615D /* Core */,
 				48828E4C1BF5B1F60092615D /* Basic */,
 				48828E321BF5884D0092615D /* Assets.xcassets */,
@@ -119,6 +137,12 @@
 				485B10D71BFDB26500E053A8 /* DemoSlider.h */,
 				485B10D81BFDB26500E053A8 /* DemoSlider.m */,
 				485B10D91BFDB26500E053A8 /* DemoSlider.xib */,
+				48146F511BFDD16600596610 /* CustomerSlider.h */,
+				48146F521BFDD16600596610 /* CustomerSlider.m */,
+				48146F531BFDD16600596610 /* CustomerSlider.xib */,
+				489DE6991C006DAD002E8117 /* CustomSwitch.h */,
+				489DE69A1C006DAD002E8117 /* CustomSwitch.m */,
+				489DE69B1C006DAD002E8117 /* CustomSwitch.xib */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -182,7 +206,9 @@
 			files = (
 				48828E361BF5884D0092615D /* LaunchScreen.storyboard in Resources */,
 				48828E541BF5E4ED0092615D /* DemoSelector.xib in Resources */,
+				48146F551BFDD16600596610 /* CustomerSlider.xib in Resources */,
 				48828E331BF5884D0092615D /* Assets.xcassets in Resources */,
+				489DE69D1C006DAD002E8117 /* CustomSwitch.xib in Resources */,
 				485B10DB1BFDB26500E053A8 /* DemoSlider.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,8 +224,10 @@
 				48828E4B1BF58BD00092615D /* MainScreen.m in Sources */,
 				48828E4A1BF58BD00092615D /* ConsoleScreen.m in Sources */,
 				48828E481BF58BD00092615D /* AppDelegate.m in Sources */,
+				489DE69C1C006DAD002E8117 /* CustomSwitch.m in Sources */,
 				48828E4F1BF5B3250092615D /* DemoFunction.m in Sources */,
 				48828E531BF5E4ED0092615D /* DemoSelector.m in Sources */,
+				48146F541BFDD16600596610 /* CustomerSlider.m in Sources */,
 				48828E281BF5884D0092615D /* main.m in Sources */,
 				485B10DA1BFDB26500E053A8 /* DemoSlider.m in Sources */,
 			);
@@ -304,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ObjcExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.ObjcExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ObjcExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.ObjcExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";

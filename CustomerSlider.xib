@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomerSlider">
+            <connections>
+                <outlet property="labelValueSlider" destination="EWz-o2-WOB" id="a0o-9M-rnK"/>
+                <outlet property="slider" destination="fiw-zw-ISl" id="ieE-Ud-xwD"/>
+                <outlet property="tooltipContrain" destination="yGH-Uf-Y1A" id="dFi-r8-PBU"/>
+                <outlet property="tooltipImage" destination="VSJ-7D-HSX" id="JAa-mO-9xl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fiw-zw-ISl">
+                    <rect key="frame" x="18" y="269" width="284" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="1sE-O1-UVr"/>
+                    </constraints>
+                    <color key="minimumTrackTintColor" white="0.63484272203947356" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="1sE-O1-UVr"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="onChangedValueSlider:" destination="-1" eventType="valueChanged" id="5ER-a3-HXx"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Slider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkc-Ta-Azc">
+                    <rect key="frame" x="98" y="90" width="123" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tooltip" translatesAutoresizingMaskIntoConstraints="NO" id="VSJ-7D-HSX">
+                    <rect key="frame" x="20" y="214" width="60" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="WGH-lr-vGX"/>
+                        <constraint firstAttribute="height" constant="40" id="x4N-xe-suL"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWz-o2-WOB">
+                    <rect key="frame" x="34" y="210" width="31" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fiw-zw-ISl" firstAttribute="top" secondItem="VSJ-7D-HSX" secondAttribute="bottom" constant="15" id="1Tb-x7-AO1"/>
+                <constraint firstItem="nkc-Ta-Azc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AkU-YD-qxG"/>
+                <constraint firstItem="EWz-o2-WOB" firstAttribute="baseline" secondItem="VSJ-7D-HSX" secondAttribute="baseline" id="DBO-PA-oI4"/>
+                <constraint firstItem="fiw-zw-ISl" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="HOC-b9-vWg"/>
+                <constraint firstAttribute="trailing" secondItem="fiw-zw-ISl" secondAttribute="trailing" constant="20" id="LGu-ep-Be0"/>
+                <constraint firstItem="EWz-o2-WOB" firstAttribute="centerY" secondItem="VSJ-7D-HSX" secondAttribute="centerY" id="LVx-m8-i77"/>
+                <constraint firstItem="fiw-zw-ISl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="N2k-6Y-4Ee"/>
+                <constraint firstItem="fiw-zw-ISl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Ph0-2i-COZ"/>
+                <constraint firstItem="nkc-Ta-Azc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="iES-O3-3q4"/>
+                <constraint firstItem="EWz-o2-WOB" firstAttribute="centerX" secondItem="VSJ-7D-HSX" secondAttribute="centerX" id="qQB-Nc-l3w"/>
+                <constraint firstItem="VSJ-7D-HSX" firstAttribute="leading" secondItem="fiw-zw-ISl" secondAttribute="leading" id="yGH-Uf-Y1A"/>
+                <constraint firstItem="EWz-o2-WOB" firstAttribute="centerX" secondItem="VSJ-7D-HSX" secondAttribute="centerX" id="yrU-jJ-M5P"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="yrU-jJ-M5P"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="161" y="236"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tooltip" width="360" height="267"/>
+    </resources>
+</document>

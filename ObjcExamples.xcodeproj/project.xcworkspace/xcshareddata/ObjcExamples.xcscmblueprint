@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D72CCF4103552123FA34D217D9B01DD9AAE3E3C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0D72CCF4103552123FA34D217D9B01DD9AAE3E3C" : 0,
+    "48EC0AB6ACDCAAAB7F8BF5E77F98DAC9355E55FC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7007AA61-9149-4920-B786-FC5ADC78E3D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0D72CCF4103552123FA34D217D9B01DD9AAE3E3C" : "ObjcExamples\/",
+    "48EC0AB6ACDCAAAB7F8BF5E77F98DAC9355E55FC" : "ObjcExamples\/ObjcExamples\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ObjcExamples",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ObjcExamples.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zozoka\/ObjectiveCExamples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D72CCF4103552123FA34D217D9B01DD9AAE3E3C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zozoka\/objcExamples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "48EC0AB6ACDCAAAB7F8BF5E77F98DAC9355E55FC"
+    }
+  ]
+}
