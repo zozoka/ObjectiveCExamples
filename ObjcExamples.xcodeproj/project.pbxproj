@@ -12,6 +12,8 @@
 		487A3DAD1C02D179004D64AF /* CustomerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A3DAB1C02D179004D64AF /* CustomerSlider.m */; settings = {ASSET_TAGS = (); }; };
 		487A3DAE1C02D179004D64AF /* CustomerSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487A3DAC1C02D179004D64AF /* CustomerSlider.xib */; settings = {ASSET_TAGS = (); }; };
 		487A3DB51C02F990004D64AF /* CustomSwitchCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A3DB41C02F990004D64AF /* CustomSwitchCore.m */; settings = {ASSET_TAGS = (); }; };
+		487F44661C04042300DAB73C /* SkewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 487F44641C04042300DAB73C /* SkewImage.m */; settings = {ASSET_TAGS = (); }; };
+		487F44671C04042300DAB73C /* SkewImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487F44651C04042300DAB73C /* SkewImage.xib */; settings = {ASSET_TAGS = (); }; };
 		48828E281BF5884D0092615D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48828E271BF5884D0092615D /* main.m */; };
 		48828E331BF5884D0092615D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48828E321BF5884D0092615D /* Assets.xcassets */; };
 		48828E361BF5884D0092615D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48828E341BF5884D0092615D /* LaunchScreen.storyboard */; };
@@ -35,6 +37,9 @@
 		487A3DAC1C02D179004D64AF /* CustomerSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerSlider.xib; sourceTree = "<group>"; };
 		487A3DB31C02F990004D64AF /* CustomSwitchCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitchCore.h; sourceTree = "<group>"; };
 		487A3DB41C02F990004D64AF /* CustomSwitchCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitchCore.m; sourceTree = "<group>"; };
+		487F44631C04042300DAB73C /* SkewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkewImage.h; sourceTree = "<group>"; };
+		487F44641C04042300DAB73C /* SkewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkewImage.m; sourceTree = "<group>"; };
+		487F44651C04042300DAB73C /* SkewImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkewImage.xib; sourceTree = "<group>"; };
 		48828E231BF5884D0092615D /* ObjcExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48828E271BF5884D0092615D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48828E321BF5884D0092615D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -156,6 +161,9 @@
 				489DE6991C006DAD002E8117 /* CustomSwitch.h */,
 				489DE69A1C006DAD002E8117 /* CustomSwitch.m */,
 				489DE69B1C006DAD002E8117 /* CustomSwitch.xib */,
+				487F44631C04042300DAB73C /* SkewImage.h */,
+				487F44641C04042300DAB73C /* SkewImage.m */,
+				487F44651C04042300DAB73C /* SkewImage.xib */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -223,6 +231,7 @@
 				48828E331BF5884D0092615D /* Assets.xcassets in Resources */,
 				489DE69D1C006DAD002E8117 /* CustomSwitch.xib in Resources */,
 				485B10DB1BFDB26500E053A8 /* DemoSlider.xib in Resources */,
+				487F44671C04042300DAB73C /* SkewImage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 				489DE69C1C006DAD002E8117 /* CustomSwitch.m in Sources */,
 				48828E4F1BF5B3250092615D /* DemoFunction.m in Sources */,
 				487A3DAD1C02D179004D64AF /* CustomerSlider.m in Sources */,
+				487F44661C04042300DAB73C /* SkewImage.m in Sources */,
 				487A3DB51C02F990004D64AF /* CustomSwitchCore.m in Sources */,
 				48828E531BF5E4ED0092615D /* DemoSelector.m in Sources */,
 				48828E281BF5884D0092615D /* main.m in Sources */,
