@@ -23,9 +23,12 @@
                                     @{TITLE: @"Demo Slider", CLASS: @"DemoSlider"},
                                     @{TITLE: @"Slider Advance", CLASS: @"CustomerSlider"},
                                     @{TITLE: @"Customized Switch", CLASS: @"CustomSwitch"},
-                                    @{TITLE: @"Nghịch Ngọc Trinh", CLASS: @"SkewImage"}
-                                    
+                                    @{TITLE: @"Nghịch Ngọc Trinh", CLASS: @"SkewImage"},
+                                    @{TITLE: @"Calculator", CLASS: @"Calculator"},
+                                    @{TITLE: @"UIView Basic", CLASS: @"UIViewBasic"},
+                                    @{TITLE: @"Chess View", CLASS: @"ChessView"}
                                   ]};
+    
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
                                     @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
                              ]};
