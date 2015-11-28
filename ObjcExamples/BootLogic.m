@@ -26,7 +26,8 @@
                                     @{TITLE: @"Nghịch Ngọc Trinh", CLASS: @"SkewImage"},
                                     @{TITLE: @"Calculator", CLASS: @"Calculator"},
                                     @{TITLE: @"UIView Basic", CLASS: @"UIViewBasic"},
-                                    @{TITLE: @"Chess View", CLASS: @"ChessView"}
+                                    @{TITLE: @"Chess View", CLASS: @"ChessView"},
+                                    @{TITLE: @"Lửa Trại", CLASS: @"CampFire"}
                                   ]};
     
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
