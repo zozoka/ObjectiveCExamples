@@ -23,11 +23,16 @@
                                     @{TITLE: @"Demo Slider", CLASS: @"DemoSlider"},
                                     @{TITLE: @"Slider Advance", CLASS: @"CustomerSlider"},
                                     @{TITLE: @"Customized Switch", CLASS: @"CustomSwitch"},
+                                    @{TITLE: @"Drop Ball", CLASS: @"DropBall"},
                                     @{TITLE: @"Nghịch Ngọc Trinh", CLASS: @"SkewImage"},
                                     @{TITLE: @"Calculator", CLASS: @"Calculator"},
                                     @{TITLE: @"UIView Basic", CLASS: @"UIViewBasic"},
                                     @{TITLE: @"Chess View", CLASS: @"ChessView"},
-                                    @{TITLE: @"Lửa Trại", CLASS: @"CampFire"}
+                                    @{TITLE: @"Lửa Trại", CLASS: @"CampFire"},
+                                    @{TITLE: @"Flying bird", CLASS: @"FlyingBird"},
+                                    @{TITLE: @"Trái đất và mặt trời", CLASS: @"EarthAndSun"},
+                                    @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"},
+                                    @{TITLE: @"Hex Color", CLASS: @"Democolor"}
                                   ]};
     
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
@@ -41,5 +46,6 @@
     UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController: mainScreen];
     
     window.rootViewController = nav;
+    
 }
 @end

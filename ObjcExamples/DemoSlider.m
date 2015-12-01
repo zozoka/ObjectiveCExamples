@@ -55,5 +55,12 @@
     }
 }
 
+-(void) viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [_time invalidate];
+    _time = nil;
+    [_time2 invalidate];
+    _time2 = nil;
+}
 
 @end
